@@ -1,0 +1,18 @@
+Package: cellhop
+Type: Package
+Title: Hop between Seurat and AnnData without visible intermediates
+Version: 0.0.1
+Authors@R: c(person(given = "Nigmat", family = "Rahim", role = c("aut", "cre"), email = "nigmatrahim@stu.pku.edu.cn"))
+Description: One-liners to convert Seurat <-> AnnData using reticulate/rpy2 bridges and SeuratDisk.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1)
+Imports:
+    Seurat,
+    SeuratDisk,
+    reticulate,
+    utils
+Suggests:
+    anndata
+RoxygenNote: 7.3.2
